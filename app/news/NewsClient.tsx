@@ -4,6 +4,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import { Grid, Card, CardActionArea, CardContent } from '@mui/material'; // ✅ OK
+import Grid from '@mui/material/Grid'; // ✅ 正しい
+
 import CardMedia from '@mui/material/CardMedia';
 import { format } from 'date-fns';
 import Link from 'next/link';
