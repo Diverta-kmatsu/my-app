@@ -76,33 +76,21 @@ export default function NewsClient() {
 
       <Box>
         <Grid container spacing={3}>
-          {items?.map((item) => (
-            <Grid key={item.topics_id} item xs={12} sm={6} md={4}>
-              <Card>
-                <Link href={`/news/${item.topics_id}`} passHref>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="194"
-                      image={item.ext_8.url}
-                      alt=""
-                    />
-                    <Box
-                      sx={{
-                        p: 2,
-                      }}
-                    >
-                      <Typography>{item.subject}</Typography>
-                      <Typography>
-                        {format(new Date(item.inst_ymdhi), 'yyyy/MM/dd')}
-                      </Typography>
-                    </Box>
-                  </CardActionArea>
-                </Link>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
+  {items?.map((item) => (
+    <Grid item key={item.topics_id} xs={12} sm={6} md={4}>
+      <Card>
+        <Link href={`/news/${item.topics_id}`} passHref>
+          <CardActionArea>
+            <CardContent>
+              {/* 表示内容など */}
+            </CardContent>
+          </CardActionArea>
+        </Link>
+      </Card>
+    </Grid>
+  ))}
+</Grid>
+
       </Box>
 
       <Pagination
