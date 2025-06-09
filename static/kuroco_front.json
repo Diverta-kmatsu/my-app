@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+      {
+        "source": "^(?!.*\\.(html|js|css|json|jpg|jpeg|png|gif|svg|ico|webp|woff|woff2|ttf|eot)).*$",
+        "destination": "/index.html"
+      }
+    ],
+  "redirects": [],
+  "basic": [],
+  "ip_restrictions": []
+}
