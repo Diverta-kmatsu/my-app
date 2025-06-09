@@ -1,14 +1,6 @@
 'use client';
 
-import {
-  Box,
-  Card,
-  CardActionArea,
-  Grid,
-  Pagination,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Grid, Card, CardActionArea, CardContent } from '@mui/material'; // ✅ OK
 import CardMedia from '@mui/material/CardMedia';
 import { format } from 'date-fns';
 import Link from 'next/link';
