@@ -1,5 +1,6 @@
 'use client';
 
+import Stack from '@mui/material/Stack';
 import { Grid, Card, CardActionArea, CardContent } from '@mui/material'; // ✅ OK
 import CardMedia from '@mui/material/CardMedia';
 import { format } from 'date-fns';
