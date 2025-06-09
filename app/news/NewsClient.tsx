@@ -1,5 +1,6 @@
 'use client';
 
+import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import { Grid, Card, CardActionArea, CardContent } from '@mui/material'; // ✅ OK
 import CardMedia from '@mui/material/CardMedia';
